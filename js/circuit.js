@@ -118,7 +118,7 @@ class Circuit
 			// img: this.load.image('horse', '../assets/E2.png'),
 			color: Math.floor(n/this.rumble_segments)%2 ? COLORS.DARK : COLORS.LIGHT,
 		});
-		// this.segments.push({img: COLORS.IMG})
+		
 	}
 	
 	/**
