@@ -61,8 +61,8 @@ class MainScene extends Phaser.Scene
 		this.load.image('imgPlayer', 'assets/car.png');
 		this.load.spritesheet({
 			key: 'cow',
-			url: '../assets/E0.png',
-			normalMap: '../assets/E0.png',
+			url: 'assets/E0.png',
+			normalMap: 'assets/E0.png',
 			frameConfig: {
 				frameWidth: 389,
 				frameHeight: 278
@@ -70,8 +70,8 @@ class MainScene extends Phaser.Scene
 		});
 		this.load.spritesheet({
 			key: 'lion',
-			url: '../assets/E3.png',
-			normalMap: '../assets/E3.png',
+			url: 'assets/E3.png',
+			normalMap: 'assets/E3.png',
 			frameConfig: {
 				frameWidth: 389,
 				frameHeight: 278
@@ -79,8 +79,8 @@ class MainScene extends Phaser.Scene
 		});	
 		this.load.spritesheet({
 			key: 'elephant',
-			url: '../assets/E4.png',
-			normalMap: '../assets/E4.png',
+			url: 'assets/E4.png',
+			normalMap: 'assets/E4.png',
 			frameConfig: {
 				frameWidth: 389,
 				frameHeight: 278
