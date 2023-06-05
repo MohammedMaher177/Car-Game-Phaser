@@ -57,10 +57,10 @@ class MainScene extends Phaser.Scene
 	* Loads all assets.
 	*/
 	preload(){
-		this.load.image('imgBack', '../assets/Untitled-2.jpg');
-		this.load.image('imgPlayer', '../assets/car.png');
+		this.load.image('imgBack', 'assets/Untitled-2.jpg');
+		this.load.image('imgPlayer', 'assets/car.png');
 		this.load.spritesheet({
-			key: 'cow1',
+			key: 'cow',
 			url: '../assets/E0.png',
 			normalMap: '../assets/E0.png',
 			frameConfig: {
@@ -102,7 +102,7 @@ class MainScene extends Phaser.Scene
 			this.add.image(0, 0, 'imgPlayer').setVisible(false),
 		]
 		// add more logic here
-
+		console.log(imageData);
 		// instances
 		this.circuit = new Circuit(this);
 		this.player = new Player(this);
